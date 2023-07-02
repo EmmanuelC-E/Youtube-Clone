@@ -1,0 +1,159 @@
+
+
+/***** Nav Bar ***/
+nav {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 3rem;
+    width: 100%;
+    /* position: fixed; */
+    /* top: 0; */
+    background-color: white;
+}
+
+#left-menu {
+    display: flex;
+    align-items: center;
+}
+
+#centre-menu {
+    width: 48vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#right-menu {
+    display: flex;
+    align-items: center;
+}
+ 
+#menu {
+    margin: 1.5em;
+}
+
+#search-box {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3em;
+    padding: 0.8em;
+    font-size: 14px;
+    outline: none;
+    box-shadow: 0 -1px 2px #ccc;
+}
+#search-icon {
+    position: absolute;
+    top: 12px;
+    right: 59px;
+    width: 4%;
+}
+
+#mic-icon {
+    margin-left: 1em;
+}
+
+#notification-icon {
+    margin: 0 2em;
+    width: 13%;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    height: 2.5em;
+    width: 2.5em;
+    margin-right: 2em;
+}
+
+.sidebar {
+    padding: 0 10px;
+}
+
+.sidebar a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding-left: 1rem;
+}
+.sidebar a:hover {
+    background-color: #f3f0f0;
+    border-radius: 0.8rem;
+}
+
+.sidebar a p {
+    margin-left: 1.2rem;
+}
+
+.sideimage-icon {
+    border-radius: 50%;
+}
+/* #button-container {
+    position: sticky;
+    top: 65px;
+} */
+
+#button-container button {
+    padding: 10px 12px;
+    border: none;
+    border-radius: 8px;
+    margin: 5px;
+}
+.overall-container {
+    display: flex;
+    margin-top: 1rem;
+}
+aside {
+    width: 17%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: 12px;
+}
+main {
+    width: 78%;
+}
+section {
+    margin-top: 2rem;
+}
+.first-row {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.video-list {
+    width: 340px;
+    margin: 0.5rem;
+}
+.videoinfo-flex {
+    display: flex;
+    margin-top: 0.8rem;
+    width: 100%;
+}
+.vid-img {
+    border-radius: 50%;
+    width: 2.2rem;
+    height: 2.2rem;
+}
+.video-info {
+    margin-left: 0.8rem;
+    padding-right: 0.8rem;
+    width: 320px;
+}
+.video-info a {
+    text-decoration: none;
+    color: #0f0f0f;
+}
+.video-info a h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: Roboto, Arial, sans-serif;
+    margin-top: 0;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.video-info p {
+    color: #606060;
+    font-size: 14px;
+    line-height: 0.5rem;
+}
